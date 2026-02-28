@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Widerruf & Rückgabe | PixelCity Web-Shop</title>
+    <style>
+        :root {
+            --primary-color: #00d2ff; /* Ein moderner "Pixel/Tech" Blauton */
+            --secondary-color: #3a7bd5;
+            --text-color: #f3f4f6;
+            --bg-color: #0f172a; /* Dunkles Design, passend zu Web-Entwicklung */
+            --card-bg: #1e293b;
+            --accent-color: #f43f5e;
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, sans-serif;
+            line-height: 1.6;
+            color: var(--text-color);
+            background-color: var(--bg-color);
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 20px;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 50px;
+        }
+
+        h1 { color: var(--primary-color); font-size: 2.5rem; margin-bottom: 10px; }
+        h2 { color: var(--primary-color); border-bottom: 1px solid #334155; padding-bottom: 10px; margin-top: 30px; }
+
+        .info-card {
+            background: var(--card-bg);
+            border-radius: 16px;
+            padding: 30px;
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+            margin-bottom: 30px;
+            border: 1px solid #334155;
+        }
+
+        .highlight-box {
+            background-color: rgba(0, 210, 255, 0.1);
+            border-left: 4px solid var(--primary-color);
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 0 8px 8px 0;
+        }
+
+        .step-list {
+            list-style: none;
+            padding: 0;
+        }
+
+        .step-list li {
+            margin-bottom: 15px;
+            padding-left: 30px;
+            position: relative;
+        }
+
+        .step-list li::before {
+            content: "→";
+            position: absolute;
+            left: 0;
+            color: var(--primary-color);
+            font-weight: bold;
+        }
+
+        .checkbox-preview {
+            background: #0f172a;
+            padding: 20px;
+            border-radius: 10px;
+            border: 1px dashed #334155;
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+
+        a { color: var(--primary-color); text-decoration: none; transition: 0.3s; }
+        a:hover { color: var(--secondary-color); text-decoration: underline; }
+
+        footer {
+            text-align: center;
+            margin-top: 60px;
+            padding-bottom: 40px;
+            border-top: 1px solid #334155;
+            padding-top: 20px;
+            color: #94a3b8;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <header>
+        <h1>Widerrufsrecht</h1>
+        <p>Transparente Infos zu deinen Käufen auf <strong>marcel533.github.io/web-shop/</strong></p>
+    </header>
+
+    <div class="info-card">
+        <h2>1. Digitale Produkte & die 14 Tage</h2>
+        <p>Normalerweise hast du bei Online-Käufen ein 14-tägiges Widerrufsrecht. Da wir jedoch <strong>digitale Webseiten und Templates</strong> anbieten, die sofort nach dem Kauf heruntergeladen oder genutzt werden können, gibt es eine wichtige Ausnahme.</p>
+        
+        <div class="highlight-box">
+            <strong>Der Kernpunkt:</strong> Da man digitale Daten nicht wie ein Paket zurückschicken kann, erlischt das Widerrufsrecht, sobald wir mit der Lieferung beginnen (z. B. Bereitstellung des Codes).
+        </div>
+    </div>
+
+    <div class="info-card">
+        <h2>2. Wann erlischt das Recht genau?</h2>
+        <p>Dein Widerrufsrecht erlischt vorzeitig, wenn:</p>
+        <ul class="step-list">
+            <li>Du den Download oder die Nutzung der Webseitendaten startest.</li>
+            <li>Wir mit der individuellen Programmierung für dich begonnen haben.</li>
+            <li>Du beim Kauf zugestimmt hast, dass wir sofort liefern sollen.</li>
+        </ul>
+    </div>
+
+    <div class="info-card">
+        <h2>3. Dein Einverständnis im Checkout</h2>
+        <p>Damit du nicht warten musst, bestätigst du uns beim Kauf folgendes:</p>
+        
+        <div class="checkbox-preview">
+            <input type="checkbox" checked disabled> 
+            <span>Ich stimme der sofortigen Ausführung des Vertrags zu und weiß, dass mein Widerrufsrecht damit erlischt.</span>
+        </div>
+    </div>
+
+    <div class="info-card">
+        <h2>Support & Kontakt</h2>
+        <p>Hast du Probleme mit deiner Webseite oder Fragen zum Kauf? Wir lassen dich nicht im Regen stehen!</p>
+        <p><strong>Schreib mir einfach direkt:</strong></p>
+        <p style="font-size: 1.2rem; font-weight: bold;">
+            📩 <a href="mailto:marcel@pixelcity.top">marcel@pixelcity.top</a>
+        </p>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 PixelCity | <a href="https://marcel533.github.io/web-shop/">Zurück zum Shop</a></p>
+    </footer>
+</div>
+
+</body>
+</html>
